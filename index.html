@@ -3,150 +3,134 @@
   <head>
     <meta charset="UTF-8" />
     <title>LJH website</title>
+    <meta name="author" content="LJH" />
+    <link rel="icon" type="image/png" href="imgs/favicon1.png" />
+    <script
+      src="https://kit.fontawesome.com/46d3d8cf24.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .project {
+        text-align: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2px;
+      }
+
+      .project img {
+        max-width: 80%;
+        max-height: 80%;
+      }
+
+      a {
+        text-decoration: none;
+      }
+      span {
+        color: black;
+      }
+
+      span:hover {
+        background-color: gray;
+        color: white;
+        border-radius: 5px;
+        padding: 2px;
+      }
+
+      .contact__tittle,
+      .contact__email,
+      .contact__rights {
+        color: var(--color-white);
+      }
+
+      .contact__tittle {
+        margin: 26px 0;
+        margin-bottom: 20px;
+      }
+
+      .contact__links {
+        font-size: var(--font-medium);
+        margin: 24px 0;
+      }
+
+      .contact__links i {
+        transition: all var(--animation-duration) ease-in;
+      }
+
+      .contact__links i:hover {
+        transform: scale(1.1);
+        color: #73aace;
+      }
+
+      #contact {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1>LJH's wed site</h1>
+    <div id="main">
+      <h1>LJH's wed site</h1>
+    </div>
     <hr />
 
-    <!-- day1 -->
-    <div class="kosmo">
-      <h2>HTML_CSS day1</h2>
-      <a href="lab01/attribute.html" target="blank"> day1 attribute </a>
-      <br /><br />
-      <a href="lab01/no_br.html" target="blank"> day1 no use br tag </a>
-      <br /><br />
-      <a href="lab01/p_tag.html" target="blank"> day1 use p tag </a>
-      <br /><br />
-      <a href="lab01/dl_dt_tag.html" target="blank"> day1 use dl, dt tag </a>
-      <br /><br />
-      <a href="lab01/ul_li_tag.html" target="blank"> day1 use ul, li tag </a>
-      <br /><br />
-      <a href="lab01/link_tag.html" target="blank"> day1 use link tag </a>
-      <br /><br />
+    <section id="menu" class="section">
+      <div class="section__container">
+        <h2>Personal Projects</h2>
+        <div class="project">
+          <table>
+            <tr>
+              <td>
+                <a href="https://ljh0413.github.io/Portfolio/">
+                  <img src="img/portfolio.png" />
+                </a>
+              </td>
+              <td>
+                <a href="https://ljh0413.github.io/cafeOttimo/">
+                  <img src="img/Ottimo-3.png" />
+                </a>
+              </td>
+            </tr>
+
+            <tr>
+              <td><span>Portfolio</span></td>
+              <td><span>Cafe Ottimo</span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr />
+    </section>
+
+    <div class="Html_Css">
+      <h2>HTML & CSS Study</h2>
+      <a href="html_css_study.html"><span>Go to HTML & CSS Study</span></a>
     </div>
+    <hr />
 
-    <!-- day2 -->
-    <div class="kosmo">
-      <h2>HTML_CSS day2</h2>
-      <a href="lab04/resume.html" target="blank"> day2 resume </a>
-      <br /><br />
-      <a href="lab04/sign_in.html" target="blank"> day2 sign in </a>
-      <br /><br />
-      <a href="lab04/table_ex.html" target="blank"> day2 table ex </a>
-      <br /><br />
-      <a href="lab04/input_text.html" target="blank"> day2 text </a>
-      <br /><br />
-      <a href="lab04/textarea.html" target="blank"> day2 textarea </a>
-      <br /><br />
-      <a href="lab04/input_password.html" target="blank"> day2 password </a>
-      <br /><br />
-      <a href="lab04/input_file.html" target="blank"> day2 file </a>
-      <br /><br />
-      <a href="lab04/input_checkbox.html" target="blank"> day2 checkbox </a>
-      <br /><br />
-      <a href="lab04/input_radio.html" target="blank"> day2 radio </a>
-      <br /><br />
+    <div class="Java">
+      <h2>JAVA Study</h2>
+      <a href="https://github.com/LJH0413/JAVAReview" target="blank"
+        ><span>Go to JAVA Study</span></a
+      >
     </div>
+    <hr />
 
-    <!-- day3 -->
-    <div class="kosmo">
-      <h2>HTML_CSS day3</h2>
-      <a href="lab05/01_css_syntax.html" target="blank"> 01_css_syntax </a>
-      <br /><br />
-      <a href="lab05/02_Inline_style.html" target="blank"> 02_Inline_style </a>
-      <br /><br />
-      <a href="lab05/03_internal_style.html" target="blank"> 03_internal_style </a>
-      <br /><br />
-      <a href="lab05/04_external_style.html" target="blank"> 04_external_style </a>
-      <br /><br />
-      <a href="lab05/05_color.html" target="blank"> 05_color </a>
-      <br /><br />
-      <a href="lab05/06_text_align.html" target="blank"> 06_text_align </a>
-      <br /><br />
-      <a href="lab05/07_text_shadow.html" target="blank"> 07_text_shadow </a>
-      <br /><br />
-      <a href="lab05/08_font_style.html" target="blank"> 08_font_style </a>
-      <br /><br />
-      <a href="lab05/10_css_link.html" target="blank"> 10_css_link </a>
-      <br /><br />
-      <br><br>
-
-      <a href="lab06/01_tag_select.html" target="blank"> 01_tag_select </a>
-      <br /><br />
-      <a href="lab06/02_id_select.html" target="blank"> 02_id_select </a>
-      <br /><br />
-      <a href="lab06/03_class_select.html" target="blank"> 03_class_select </a>
-      <br /><br />
-      <a href="lab06/04_class_select.html target="blank"> 04_class_select </a>
-      <br /><br />
-      <a href="lab06/06-1_descendant_select.html target="blank"> 06-1_descendant_select </a>
-      <br /><br />
-      <a href="lab06/06_descendant_select.html" target="blank"> 06_descendant_select </a>
-      <br /><br />
-      <a href="lab06/07_html_css_comment.html" target="blank"> 07_html_css_comment </a>
-      <br /><br />
-      <a href="lab06/08_css_con.html" target="blank"> 08_css_con </a>
-      <br /><br />
-    </div>
-
-    <!-- day4 -->
-    <div class="kosmo">
-      <h2>HTML_CSS day4</h2>
-      <a href="lab07/01_background_color.html" target="blank"> 01_background_color </a>
-      <br /><br />
-      <a href="lab07/02_background_img.html" target="blank"> 02_background_img </a>
-      <br /><br />
-      <a href="lab07/03_background_repeat.html" target="blank"> 03_background_repeat </a>
-      <br /><br />
-      <a href="lab07/04_background_repeat.html" target="blank"> 04_background_repeat </a>
-      <br /><br />
-      <a href="lab07/05_background_position.html" target="blank"> 05_background_position </a>
-      <br /><br />
-      <a href="lab07/06_list_style_type.html" target="blank"> 06_list_style_type </a>
-      <br /><br />
-      <a href="lab07/07_list_style_img.html" target="blank"> 07_list_style_img </a>
-      <br /><br />
-
-      <a href="lab08/01_border.html" target="blank"> 01_border </a>
-      <br /><br />
-      <a href="lab08/02_various_border.html" target="blank"> 02_various_border </a>
-      <br /><br />
-      <a href="lab08/03_border_radio.html" target="blank"> 03_border_radio </a>
-      <br /><br />
-      <a href="lab08/04_margin.html" target="blank"> 04_margin </a>
-      <br /><br />
-      <a href="lab08/05_padding.html" target="blank"> 05_padding </a>
-      <br /><br />
-      <a href="lab08/06_book_banner.html" target="blank"> 06_book_banner </a>
-      <br /><br />
-      <br><br>
-    </div>
-
-    <!-- day5 -->
-    <div class="kosmo">
-      <h2>HTML_CSS day5</h2>
-      <a href="lab09/login_form.html" target="blank"> login form </a>
-      <br /><br />
-      <a href="lab09/login_form_table.html" target="blank"> login form using table </a>
-      <br /><br />
-      <a href="lab09/page.html" target="blank"> pratice page </a>
-      <br /><br />
-      <a href="lab09/sign_in.html" target="blank"> sign in form </a>
-      <br /><br />
-      <a href="lab09/table.html" target="blank"> table </a>
-      <br /><br />
-    </div>
-
-
-
-    <!-- EX -->
-    <div id="kosmo">
-      <h2>Ex</h2>
-      <a href="EX/0501.html" target="blank"> 0501 </a>
-      <br /><br />
-       <a href="EX/0901.html" target="blank"> 0901 </a>
-      <br /><br />
-    </div>
-
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="section__container">
+        <h2 class="contact__tittle">Let's talk</h2>
+        <h3 class="contact__email">edcdia2@kakao.com</h3>
+        <div class="contact__links">
+          <a href="https://github.com/LJH0413" target="blank">
+            <i class="fab fa-github-square" style="color: black"></i>
+          </a>
+          <a href="https://www.instagram.com/_junvely_/" target="blank">
+            <i class="fab fa-instagram" style="color: black"></i>
+          </a>
+        </div>
+        <p class="contact__rights">ⓒ 2021. LEEJUNHEE all rights reserved.</p>
+      </div>
+    </section>
   </body>
 </html>

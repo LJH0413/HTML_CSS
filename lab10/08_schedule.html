@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>schedule</title>
+
+    <style>
+      table {
+        border: solid 1px gray;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        width: 250px;
+        border: solid 1px gray;
+        border-collapse: collapse;
+      }
+
+      td {
+        height: 100px;
+        padding-top: 2px;
+        padding-left: 2px;
+        text-align: left;
+        vertical-align: top;
+      }
+
+      #main {
+        text-align: center;
+      }
+
+      .days {
+        background-color: lightgreen;
+        font-weight: bold;
+      }
+
+      #sun {
+        color: red;
+        font-weight: bold;
+      }
+
+      #sat {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>학사일정</h2>
+      <hr />
+
+      <div id="main">
+        <h3>2017년 6월</h3>
+      </div>
+
+      <table>
+        <tr class="days">
+          <th id="sun">일</th>
+          <th>월</th>
+          <th>화</th>
+          <th>수</th>
+          <th>목</th>
+          <th>금</th>
+          <th id="sat">토</th>
+        </tr>
+
+        <tr class="week">
+          <td id="sun"></td>
+          <td></td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td id="sat">5</td>
+        </tr>
+
+        <tr class="week">
+          <td id="sun">6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>
+            9 <br />
+            특강
+          </td>
+          <td>10</td>
+          <td>11</td>
+          <td id="sat">12</td>
+        </tr>
+
+        <tr class="week">
+          <td id="sun">13</td>
+          <td>
+            14 <br />
+            기말고사
+          </td>
+          <td>
+            15 <br />
+            기말고사
+          </td>
+          <td>
+            16 <br />
+            기말고사
+          </td>
+          <td>
+            17 <br />
+            기말고사
+          </td>
+          <td>
+            18 <br />
+            기말고사
+          </td>
+          <td id="sat">19</td>
+        </tr>
+
+        <tr class="week">
+          <td id="sun">20</td>
+          <td>
+            21 <br />
+            하계방학
+          </td>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td id="sat">26</td>
+        </tr>
+
+        <tr class="week">
+          <td id="sun">27</td>
+          <td>28</td>
+          <td>29 <br />MT</td>
+          <td>30 <br />MT</td>
+          <td>31</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

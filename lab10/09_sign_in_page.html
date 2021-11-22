@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>sing in page</title>
+    <style>
+      #head {
+        padding-left: 10px;
+        margin-bottom: 3px;
+      }
+
+      #hr {
+        color: blue;
+        border-bottom: solid 3px blue;
+      }
+      li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 5px 0 5px 100px;
+      }
+      #mem_form {
+        width: 1000px;
+        font-family: "돋움";
+        color: #444444;
+      }
+      .cols li {
+        display: inline-block;
+      }
+
+      .cols li.col1 {
+        width: 100px;
+        text-align: left;
+      }
+
+      .col1 {
+        font-weight: bold;
+      }
+      .col2 {
+        color: gray;
+        text-align: right;
+      }
+
+      .birth li.col2 input {
+        width: 45px;
+      }
+
+      .phone li.col2 input {
+        width: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3 id="head">회원가입정보</h3>
+    <hr / id="hr">
+
+    <form action="#">
+      <ul id="mem_form">
+        <div class="cols">
+          <li class="col1">* 아이디 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+          <li class="col2">
+            <input type="text" /> <button>중복확인</button> 영문, 숫자 조합으로
+            4~12자 이내
+          </li>
+        </div>
+        <hr / >
+
+        <div class="cols">
+          <li class="col1">* 비밀번호</li>
+          <li class="col2">
+            <input type="password" /> 영문, 숫자 조합으로 4~12자 이내
+          </li>
+        </div>
+        <hr />
+
+        <div class="cols">
+          <li class="col1">* 비밀번호 확인</li>
+          <li class="col2"><input type="password" /></li>
+        </div>
+        <hr />
+        <div class="cols">
+          <li class="col1">* 이름</li>
+          <li class="col2"><input type="text" /></li>
+        </div>
+        <hr />
+        <div class="cols">
+          <li class="col1">* 생년월일</li>
+          <li class="col2">
+            <input type="text" /> 년 <input type="text" /> 월
+            <input type="text" /> 일
+            <input type="radio" name="mon" selected /> 양력 &nbsp; &nbsp;
+            <input type="radio" name="mon" /> 음력
+          </li>
+        </div>
+        <hr />
+        <div class="cols">
+          <li class="col1">* 이메일</li>
+          <li class="col2">
+            <input type="text" id="email1" />@
+            <select id="email2">
+              <option>선택</option>
+              <option>naver.com</option>
+              <option>gmail.com</option>
+              <option>kakao.com</option>
+            </select>
+          </li>
+        </div>
+        <hr />
+        <div class="cols">
+          <li class="col1">* 휴대전화</li>
+          <li class="col2">
+            <select>
+              <option>010</option>
+              <option>011</option>
+              <option>017</option>
+            </select>
+            - <input type="text" class="hp" /> -
+            <input type="text" class="hp" />
+          </li>
+        </div>
+        <hr />
+        <div class="cols">
+          <li class="col1">직업</li>
+          <li class="col2">
+            <select>
+              <option>직업 선택</option>
+              <option>직장인</option>
+              <option>공무원</option>
+              <option>학생</option>
+              <option>자영업</option>
+              <option>주부</option>
+              <option>기타</option>
+            </select>
+          </li>
+        </div>
+        <hr />
+        <div class="cols">
+          <li class="col1">영어수강목적</li>
+          <li class="col2">
+            <input type="checkbox" name="p1" /> 시험대비
+            <input type="checkbox" name="p2" /> 업무상
+            <input type="checkbox" name="p3" /> 취미
+            <input type="checkbox" name="p4" /> 기타
+          </li>
+        </div>
+        <hr />
+      </ul>
+    </form>
+  </body>
+</html>

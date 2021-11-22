@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML5 레이아웃 태그를 이용하여 웹페이지 레이아웃 만들기</title>
+    <style>
+      .clear {
+        clear: both;
+      }
+
+      header {
+        border: solid 2px red;
+        width: 800px;
+        height: 60px;
+        margin: 2px;
+      }
+
+      aside {
+        width: 175px;
+        height: 398px;
+        float: left;
+        padding: 2px;
+        border: solid 2px red;
+      }
+
+      nav {
+        height: 150px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: solid 2px blue;
+      }
+
+      main {
+        width: 618px;
+        height: 400px;
+        float: left;
+        margin: 2px;
+        border: solid 2px red;
+      }
+
+      section {
+        width: 500px;
+        height: 150px;
+        margin: 2px;
+        border: solid 2px green;
+      }
+
+      footer {
+        width: 800px;
+        height: 90px;
+        margin: 2px;
+        border: solid 2px red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- header -->
+    <header>header 상단</header>
+
+    <!-- aside -->
+    <aside>
+      aside 좌측
+      <nav>nav 메뉴</nav>
+    </aside>
+
+    <!-- main -->
+    <main>
+      main 컨텐츠
+      <section>section 컨텐츠 1</section>
+      <section>section 컨텐츠 2</section>
+    </main>
+
+    <div class="clear"></div>
+
+    <!-- footer -->
+    <footer>footer 하단</footer>
+  </body>
+</html>
+
+<!-- 
+  <header> 페이지 상단에 주로 사용하며 로고나 메뉴 등의 컨텐츠를 표시
+  <footer> 페이지 하단에 주로 사용하며 저작권, 주소, 연락처 등을 표시
+  <main> 페이지의 메인컨텐츠를 표시하는데 사용 
+    <article> 독립적인 컨텐츠를 표시하는데 사용
+    <section> article이 모여 section 구성
+  <nav> 상단 메뉴, 메인 메뉴, 서브 메뉴와 같이 각종 메뉴를 표시하는데 사용     
+ -->
