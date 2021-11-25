@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>visibility(가시성) 속성</title>
+    <style>
+      .v1 {
+        visibility: hidden;
+        border: 1px dotted red;
+      }
+
+      .v2 {
+        visibility: visible;
+        border: 1px dotted red;
+      }
+
+      .v3 {
+        display: none;
+        border: solid 1px red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="v1"><img src="img/pic1.jpg" /></div>
+
+    <div class="v2"><img src="img/pic1.jpg" /></div>
+
+    <div class="v3"><img src="img/pic1.jpg" /></div>
+
+    <div class="v2"><img src="img/pic1.jpg" /></div>
+  </body>
+</html>
+
+<!-- display : none과 visibility : hidden 의 차이는 -->
+<!-- 공간 차지의 유무 
+display : none은 공간 차지 x
+visibility : hidden 은 공간 차지 o -->

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transition-timing-funcion 속성</title>
+    <style>
+      div {
+        width: 200px;
+        height: 50px;
+        background: red;
+        border: 1px solid black;
+        transition: width 1s;
+        text-align: center;
+      }
+      div:hover {
+        width: 400px;
+      }
+      #d1 {
+        top: 100px;
+        transition-timing-function: linear;
+      }
+      #d2 {
+        top: 150px;
+        transition-timing-function: ease;
+      }
+      #d3 {
+        top: 200px;
+        transition-timing-function: ease-in;
+      }
+      #d4 {
+        top: 250px;
+        transition-timing-function: ease-out;
+      }
+      #d5 {
+        top: 300px;
+        transition-timing-function: ease-in-out;
+      }
+      #d6 {
+        top: 350px;
+        transition-timing-function: cubic-bezier(0.1, 0, 0.1, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="d1">
+      linear <br />
+      (일정속도)
+    </div>
+    <div id="d2">
+      ease <br />
+      (Slow - fast)
+    </div>
+    <div id="d3">
+      ease-in <br />
+      (느리게 시작 - 가속 - 속도유지)
+    </div>
+    <div id="d4">ease-out<br />(등속변화 - 느리게 끝)</div>
+    <div id="d5">ease-in-out<br />(느리게 시작 - 느리게 끝)</div>
+    <div id="d6">cubic-bezier<br />(처음과 끝 속도 설정)</div>
+  </body>
+</html>

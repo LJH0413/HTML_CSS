@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>opacity(투명도) 마우스 올리면 힌트와 정답 출력</title>
+    <style>
+
+      .tip, .answer {
+        opacity: 0;
+        color: gray;
+      }
+      .tip:hover, .answer:hover {
+        opacity: 1.0;
+      }
+
+    </style>
+  </head>
+  <body>
+    <p>[문제] CSS3에서 불투명도를 적용하기 위한 속성은?</p>
+    <p>
+      1. border
+      <br />
+      2. opacity
+      <br />
+      3. transparency
+      <br>
+      4. visible
+      <br>
+
+      <div class="tip">
+        <p>[힌트] 불투명을 뜻하는 영문 단어</p>
+      </div>
+
+      <div class="answer">
+        <p>[정답] 2. opacity</p>
+      </div>
+    </p>
+  </body>
+</html>

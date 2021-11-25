@@ -1,0 +1,143 @@
+/* global */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: "맑은 고딕", "돋움";
+  font-size: 100%;
+}
+[class*="c"] {
+  float: left;
+  padding: 10px;
+}
+
+[class*="c"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  aside#menu li {
+    text-align: center;
+  }
+  .cm1 {
+    width: 8.33%;
+  }
+  .cm2 {
+    width: 16.66%;
+  }
+  .cm3 {
+    width: 25%;
+  }
+  .cm4 {
+    width: 33.33%;
+  }
+  .cm5 {
+    width: 41.66%;
+  }
+  .cm6 {
+    width: 50%;
+  }
+  .cm7 {
+    width: 58.33%;
+  }
+  .cm8 {
+    width: 66.66%;
+  }
+  .cm9 {
+    width: 75%;
+  }
+  .cm10 {
+    width: 83.33%;
+  }
+  .cm11 {
+    width: 91.66%;
+  }
+  .cm12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  aside#menu li {
+    text-align: center;
+  }
+  .c1 {
+    width: 8.33%;
+  }
+  .c2 {
+    width: 16.66%;
+  }
+  .c3 {
+    width: 25%;
+  }
+  .c4 {
+    width: 33.33%;
+  }
+  .c5 {
+    width: 41.66%;
+  }
+  .c6 {
+    width: 50%;
+  }
+  .c7 {
+    width: 58.33%;
+  }
+  .c8 {
+    width: 66.66%;
+  }
+  .c9 {
+    width: 75%;
+  }
+  .c10 {
+    width: 83.33%;
+  }
+  .c11 {
+    width: 91.66%;
+  }
+  .c12 {
+    width: 100%;
+  }
+}
+
+header {
+  height: 80px;
+  padding: 20px;
+  background-color: #66c0e7;
+}
+
+aside#menu {
+  color: #ffffff;
+}
+aside#menu li {
+  padding: 10px;
+  margin: 5px 0 0 0;
+  background-color: #b52d89;
+  text-align: center;
+}
+
+section#main {
+  padding: 15px;
+}
+section#main p {
+  padding: 5px;
+  font-size: 0.95em;
+  line-height: 130%;
+}
+aside#photos img {
+  width: 100%;
+}
+aside#photos li {
+  margin: 5px 0 0 0;
+}
+footer {
+  height: 60px;
+  padding: 10px;
+  clear: both;
+  text-align: center;
+  background-color: #eeeeee;
+}
